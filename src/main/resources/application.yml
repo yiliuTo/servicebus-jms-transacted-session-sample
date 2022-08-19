@@ -1,0 +1,6 @@
+spring:
+  jms:
+    servicebus:
+      connection-string: <your-asb-connection-string>
+      idle-timeout: 1800000
+      pricing-tier: <your-pricing-tier>
