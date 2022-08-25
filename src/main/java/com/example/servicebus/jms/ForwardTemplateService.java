@@ -9,9 +9,9 @@ import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-public class QueueReceiveService {
+public class ForwardTemplateService {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(QueueReceiveService.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(ForwardTemplateService.class);
 
 	private static final String QUEUE_ONE = "que001";
 	private static final String QUEUE_TWO = "que002";
